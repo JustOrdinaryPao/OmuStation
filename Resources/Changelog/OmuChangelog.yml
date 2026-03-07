@@ -2406,3 +2406,11 @@ Entries:
       message: Corpsman's armor now allows items in the suit storage slot.
   id: 301
   time: '2026-03-07T17:37:27.0000000+00:00'
+- author: 'JustOrdinaryPao '
+  changes:
+    - type: Tweak
+      message: PTech can now dispense other PDAs
+    - type: Tweak
+      message: PTech now dispenses syndie PDA and headset when emagged
+  id: 302
+  time: '2026-03-07T17:40:28.0000000+00:00'
