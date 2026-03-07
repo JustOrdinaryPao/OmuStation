@@ -2428,3 +2428,9 @@ Entries:
       message: 'Secret doors are now actually secret. '
   id: 304
   time: '2026-03-07T18:25:12.0000000+00:00'
+- author: jellygato
+  changes:
+    - type: Add
+      message: Recipes for lazy tiramisu and fancy tiramisu are now available.
+  id: 305
+  time: '2026-03-07T18:28:46.0000000+00:00'
