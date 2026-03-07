@@ -2392,3 +2392,11 @@ Entries:
       message: 'Fixed Plastitanium windows not linking to adjacent walls. '
   id: 299
   time: '2026-03-07T17:32:48.0000000+00:00'
+- author: CliveOcelot
+  changes:
+    - type: Add
+      message: Added corpsman access, which is now used by their locker.
+    - type: Tweak
+      message: Paramedic access is now used for parameds locker.
+  id: 300
+  time: '2026-03-07T17:34:04.0000000+00:00'
