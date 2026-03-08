@@ -1939,12 +1939,13 @@
   color: "#dec78a"
   metabolisms:
     Medicine:
-     effects:
-     - !type:HealthChange
-        damage:
-         groups:
-            Brute: -.3
-         types:
-            Heat: -.3
-
-        
+      effects:
+      - !type:HealthChange
+          damage:
+            groups:
+              Brute: -.3
+            types:
+              Heat: -.3
+      - !type:SuppressPain
+          amount: 5
+          time: 30
