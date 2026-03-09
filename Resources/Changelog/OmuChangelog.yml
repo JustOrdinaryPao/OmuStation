@@ -2492,3 +2492,11 @@ Entries:
       message: Wideswinging on auto-attacking weapons is now fixed.
   id: 313
   time: '2026-03-09T10:37:43.0000000+00:00'
+- author: CometVoid
+  changes:
+    - type: Fix
+      message: >-
+        IPCs now make sound when they clap, snap, salute, sigh, whistle, and
+        manually cough
+  id: 314
+  time: '2026-03-09T10:52:32.0000000+00:00'
