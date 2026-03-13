@@ -17,7 +17,7 @@
     fitsInCharger: true
   - type: ContainerContainer
   - type: PowerCellDraw
-    drawRate: 0.4
+    drawRate: 1
   - type: ToggleCellDraw
   - type: ActivatableUI
     key: enum.EnergyReagentDispenserUiKey.Key
