@@ -153,3 +153,71 @@
       JuiceWatermelon: 5
       Whiskey: 14.8
       Wine: 9
+
+- type: entity
+  parent: BaseItem
+  id: CommandBell
+  name: command bell
+  description: The heaviest responsibility of the Admin Assistant, calling the meetings. You feel pressure just having it on you.
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/desk_bell.rsi
+    state: "normal"
+  - type: Tag
+    tags:
+      - Payload
+  - type: InteractionPopup
+    successChance: 1
+    interactSuccessSound:
+      collection: DeskBell
+      params:
+        variation: 0.03
+        volume: 3
+    onActivate: true
+  - type: EmitSoundOnUse
+    sound:
+      collection: DeskBell
+      params:
+          variation: 0.03
+          volume: 3
+  - type: EmitSoundOnTrigger
+    sound:
+      collection: DeskBell
+      params:
+          variation: 0.03
+          volume: 3
+  - type: EmitSoundOnLand
+    sound:
+      collection: DeskBell
+      params:
+          variation: 0.03
+          volume: 3
+  - type: UseDelay
+    delay: 0.5
+  - type: MeleeWeapon
+    wideAnimationRotation: 180
+    soundHit:
+      collection: DeskBell
+      params:
+          variation: 0.03
+          volume: 3
+    damage:
+      types:
+        Blunt: 4
+
+- type: entity
+  parent: BaseItem
+  id: CommandMeetingsCartridge
+  name: command meetings
+  description: Manage command meetings
+  components:
+  - type: Sprite
+    sprite: Objects/Devices/cartridge.rsi
+    state: cart-y
+  - type: Cartridge
+    programName: command-meetings-program-name
+    icon:
+      sprite:  Objects/Misc/books.rsi
+      state: book_icon
+  - type: CommandMeetings
+  - type: Item
